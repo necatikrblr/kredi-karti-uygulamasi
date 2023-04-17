@@ -73,7 +73,7 @@ input{
     margin: auto;
     width: 450px;
     height: 250px;
-    background-image: url(./img/card-img.jpg);
+    background-image: url(card-img.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -89,7 +89,7 @@ input{
     margin: auto;
     width: 450px;
     height: 250px;
-    background-image: url(./img/card-img.jpg);
+    background-image: url(card-img.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
