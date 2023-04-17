@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+            <label class="card-kap">
+                <input type="checkbox" class="checknone">
+                <div class="card">
+                    <div class="card-top">
+                        <img src="./img/çip.png" alt="">
+                        <img src="./img/visa.png" alt="">
+                    </div>
+                    <div class="card-mid"><p id="card-number"></p></div>
+                    <div class="card-bt">
+                        <div class="card-bt-left">
+                            <span>Card Holder</span>
+                            <p class="card-holder" id="card-holder"></p>
+                        </div>
+                        <div class="card-bt-right">
+                            <span id="date" class="card-date">MM</span>
+                            <span class="ara">/</span>
+                            <span id="year" class="card-year">YY</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-arka">
+                    <div class="card-top-arka"></div>
+                    <div class="card-mid-arka"><p class="cardcvv"></p></div>
+                    <div class="card-bt-arka"> <img src="./img/visa.png" alt=""></div>
+                </div>
+            </label>
+        <div class="inp-body">
+            <label for="">Card Number</label><br>
+            <input type="text" pattern="[0-9]+" id="inp-number" maxlength="16"><br>
+            <label for="">Card Holder</label><br>
+            <input type="text" id="inp-holder" maxlength="20"><br>
+        </div>
+        <div class="inp-alt">
+            <select name="" id="dselect" class="inp-alt-item">
+                <option value="01">01</option>
+                <option value="02">02</option>
+                <option value="03">03</option>
+                <option value="04">04</option>
+                <option value="05">05</option>
+                <option value="06">06</option>
+                <option value="07">07</option>
+                <option value="08">08</option>
+                <option value="09">09</option>
+                <option value="10">10</option>
+                <option value="11">11</option>
+                <option value="12">12</option>
+            </select>
+            <select name="" id="yselect" class="inp-alt-item">
+                <option value="23">2023</option>
+                <option value="24">2024</option>
+                <option value="25">2025</option>
+                <option value="26">2026</option>
+                <option value="27">2027</option>
+                <option value="28">2028</option>
+                <option value="29">2029</option>
+                <option value="30">2030</option>
+            </select>
+            <input type="text" class="cvv-on" maxlength="3">
+        </div>
+        <a href=""><button class="inp-btn">Submit</button></a>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
