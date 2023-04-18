@@ -168,3 +168,10 @@ input{
     font-size: 18px;
     padding-left: 10px;
 }
+.card-arka-span{
+    font-size: 14px;
+    color: gray;
+    position: absolute;
+    top: 40%;
+    right: 14%;
+}
