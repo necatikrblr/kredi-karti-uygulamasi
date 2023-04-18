@@ -11,6 +11,7 @@ const cardcvv = document.querySelector(".cardcvv")
 const cardholder = document.querySelector("#card-holder")
 const cardholinp = document.querySelector("#inp-holder")
 
+
 cardholinp.addEventListener("keyup",()=>{
     if(isNaN(cardholinp.value)){
         cardholder.textContent=cardholinp.value
@@ -46,6 +47,7 @@ yearselect.addEventListener("change",function(){
 cvvon.addEventListener("focus",()=>{
     cardarka.style.transform="rotateY(0deg)"
     cardon.style.transform="rotateY(180deg)"
+
 })
 cvvon.addEventListener("blur",()=>{
     cardarka.style.transform="rotateY(180deg)"
@@ -55,5 +57,7 @@ cvvon.addEventListener("blur",()=>{
 cvvon.addEventListener("keyup",()=>{
     if(!isNaN(cvvon.value)){
         cardcvv.textContent=cvvon.value
+    }else{
+        cvvon.value=""
     }
 })
