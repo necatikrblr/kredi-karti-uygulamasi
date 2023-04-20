@@ -61,3 +61,32 @@ cvvon.addEventListener("keyup",()=>{
         cvvon.value=""
     }
 })
+
+cardinp.addEventListener('gesturestart', function(e) {
+    e.preventDefault();
+    document.body.style.zoom = 0.99;
+});
+
+cardinp.addEventListener('gesturechange', function(e) {
+    e.preventDefault();
+    document.body.style.zoom = 0.99;
+});
+
+cardinp.addEventListener('gestureend', function(e) {
+    e.preventDefault();
+    document.body.style.zoom = 0.99;
+});
+cardholinp.addEventListener('gesturestart', function(e) {
+    e.preventDefault();
+    document.body.style.zoom = 0.99;
+});
+
+cardholinp.addEventListener('gesturechange', function(e) {
+    e.preventDefault();
+    document.body.style.zoom = 0.99;
+});
+
+cardholinp.addEventListener('gestureend', function(e) {
+    e.preventDefault();
+    document.body.style.zoom = 0.99;
+});
