@@ -175,3 +175,192 @@ input{
     top: 40%;
     right: 14%;
 }
+
+/* Responsive */
+
+@media screen and (max-width: 950px){
+    .container{
+        width: 500px;
+        height: 550px;
+    }
+    .card-kap{
+        height: 150px;
+        padding-left: 15px;
+    }
+    .card{
+        width: 380px;
+        height: 200px;
+    }
+    .card-top{
+        height: 50px;
+    }
+    .card-mid{
+        font-size: 22px;
+        height: 60px;
+    }
+    .card-bt-left span{
+        font-size: 15px;
+        padding-left: 10px;
+    }
+    .card-holder{
+        font-size: 15px;
+    }
+    .card-bt-right{
+        font-size: 15px;
+    }
+    .card-arka{
+        width: 380px;
+        height: 200px;
+    }
+    .card-top-arka{
+        height: 40px;
+    }
+    .card-mid-arka{
+        height: 40px;
+        font-size: 16px;
+        padding-top: 12px;
+        padding-right: 10px;
+    }
+    .card-bt-arka img{
+        width: 15%;
+    }
+    .card-arka-span{
+        right: 9%;
+    }
+    .inp-alt-item{
+        width: 100px;
+    }
+
+}
+@media screen and (max-width: 622px){
+    .container{
+        width: 400px;
+        height: 480px;
+        margin: auto;
+    }
+    .card-kap{
+        height: 100px;
+        padding-left: 14px;
+    }
+    .card{
+        width: 300px;
+        height: 180px;
+    }
+    .card-top{
+        height: 50px;
+    }
+    .card-mid{
+        margin-top: 10px;
+        font-size: 22px;
+        height: 40px;
+    }
+    .card-arka{
+        width: 300px;
+        height: 180px;
+    }
+    .card-top-arka{
+        height: 35px;
+    }
+    .card-mid-arka{
+        width: 280px;
+        height: 40px;
+        font-size: 16px;
+        padding-top: 12px;
+        padding-right: 10px;
+    }
+    .card-bt-arka img{
+        width: 15%;
+    }
+    .card-arka-span{
+        right: 8%;
+    }
+    .inp-alt-item{
+        width: 80px;
+    }
+
+}
+@media screen and (max-width: 596px){
+    .container{
+        margin: auto;
+    }
+}
+@media screen and (max-width: 492px){
+    .container{
+        width: 300px;
+        height: 350px;
+    }
+    .card-kap{
+        width: 100px;
+        height: 80px;
+        padding-left: 15px;
+    }
+    .card{
+        width: 250px;
+        height: 150px;
+    }
+    .card-top{
+        height: 30px;
+    }
+    .card-mid{
+        padding: 0;
+        margin-top: 18px;
+        font-size: 16px;
+        height: 30px;
+    }
+    .card-bt-left span{
+        font-size: 13px;
+        padding-left: 7px;
+    }
+    .card-holder{
+        font-size: 13px;
+    }
+    .card-bt-right{
+        font-size: 12px;
+    }
+    .card-arka{
+        width: 250px;
+        height: 150px;
+    }
+    .card-top-arka{
+        height: 30px;
+    }
+    .card-mid-arka{
+        height: 30px;
+        margin-top: 10px;
+        font-size: 13px;
+        padding-top: 12px;
+        padding-right: 10px;
+        width: 230px;
+    }
+    .card-bt-arka img{
+        width: 15%;
+    }
+    .card-arka-span{
+        font-size: 11px;
+        right: 8%;
+    }
+        /* CARD BİTİŞ */
+    .inp-alt-item{
+        width: 100px;
+    }
+    .inp-body label{
+        font-size: 15px;
+    }
+    .inp-body input{
+        height: 35px;
+    }
+    .inp-alt-item{
+        height: 40px;
+        width: 70px;
+    }
+    .inp-alt input{
+        height: 40px;
+        width: 60px;
+    }
+    .inp-btn{
+        margin-top: 20px;
+        height: 40px;
+    }
+
+}
+
