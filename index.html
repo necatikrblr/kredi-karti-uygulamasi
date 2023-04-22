@@ -11,7 +11,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;500;600&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="container">
+    <div class="main-container">
+        <div class="container">
             <label class="card-kap">
                 <input type="checkbox" class="checknone">
                 <div class="card">
@@ -40,7 +41,7 @@
             </label>
         <div class="inp-body">
             <label for="">Card Number</label><br>
-            <input type="text" pattern="[0-9]+" id="inp-number" maxlength="16"><br>
+            <input type="text" pattern="[0-9]+" id="inp-number" maxlength="16">
             <label for="">Card Holder</label><br>
             <input type="text" id="inp-holder" maxlength="20"><br>
         </div>
@@ -69,9 +70,10 @@
                 <option value="29">2029</option>
                 <option value="30">2030</option>
             </select>
-            <input type="text" class="cvv-on" maxlength="3">
+            <input type="text" class="cvv-on" maxlength="3" placeholder="CVV">
         </div>
         <a href=""><button class="inp-btn">Submit</button></a>
+        </div>
     </div>
 
 
