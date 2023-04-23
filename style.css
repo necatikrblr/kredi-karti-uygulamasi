@@ -248,7 +248,7 @@ input{
 
 }
 @media only screen and (max-width: 767px) {
-  section {
+  select {
     border-radius: 0;
   }
 }
