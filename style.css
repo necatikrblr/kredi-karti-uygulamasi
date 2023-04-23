@@ -247,6 +247,11 @@ input{
     }
 
 }
+@media only screen and (max-width: 767px) {
+  section {
+    border-radius: 0;
+  }
+}
 @media screen and (max-width: 622px){
     .container{
         width: 400px;
